@@ -6,9 +6,12 @@ import { Provider } from 'react-redux';
 // import store from './Redux/store';
 // import App from './Redux/App';
 
-// rtk store
+// // rtk store
 import store from './RTK/store/store';
 import App from './RTK/App';
+
+// import App from './App';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
